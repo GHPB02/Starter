@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Candidatura a Hipoteca</legend>
+            <label for="nome"> Seu Nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Nome"> 
+            <label for="sobrenome"></label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"><br>
+            <label for="rua">Endereço residencial</label><br>
+            <input type="text" id="rua" name="rua" placeholder="Rua">
+            <label for="bairro"></label>
+            <input type="text" id="bairro" name="bairro" placeholder="Bairro"><br><br>
+            <label for="numero"></label>
+            <input type="number" id="numero" name="numero" placeholder="Niumero da casa">
+            <label for="cidade"></label>
+            <input type="text" id="cidade" name="cidade" placeholder="Cidade"><br><br>
+            <label for="estado"></label>
+            <select name="estado" id="estado" placeholder="estado">
+                <option value="">Selecione um estado aqui</option>
+                <option value="">Acre</option>
+                <option value="">Alagoas</option>
+                <option value="">Bahia</option>
+                <option value="">Parana</option>
+                <option value="">Pernanbuco</option>
+            </select>
+            <label for=""></label>
+            <select name="Pais" id="Pais">
+                <option value="">Selecione Pais de origem</option>
+                <option value="">Acre</option>
+                <option value="">Europa</option>
+                <option value="">Brasil</option>
+                <option value="">Japao</option>
+            </select><br><br>
+            <label for="data">Data da compra</label><br>
+            <input type="date" id="data" name="data"><br><br>
+            <label for="email">Email para contato</label><br>
+            <input type="email" id="email" name="email" size="45" placeholder="@algumacoisa.com"><br><br>
+            <label for="estado-civil">Estado civil</label><br>
+            <select name="estado-civil" id="estado-civil">
+                <option value="">Selecione seu estado civil</option>
+                <option value="">Solteiro</option>
+                <option value="">Casado</option>
+                <option value="">Viuvo</option>
+            </select><br><br>
+            <label for="dependentes">Numero de Dependentes</label><br>
+            <input type="number" id="dependentes" name="dependentes" placeholder="Selecione um numero"><br><br>
+            <label for="">Situação de residencia atual</label><br>
+            <input type="radio" value="1" id="propria_1" name="situacao"><label for="propria_1">Casa Propria</label><br>
+            <input type="radio" value="2" id="inquilino_2" name="situacao"><label for="inquilino_2">Inquilino</label><br>
+            <input type="radio" value="3" id="psarentes_3" name="situacao"><label for="psarentes_3">Vivendo com pais/parentes</label><br><br>
+            <label for="">Ha um segundo requerente?</label><br>
+            <input type="radio" id="sim" value="yes" name="requerente"><label for="sim"> Sim</label> 
+            <input type="radio" id="nao" value="no" name="requerente"><label for="nao"> Não</label><br><br>
+            <Button>Enviar</Button>
+        </fieldset>
+    </form>
+</body>
+</html>

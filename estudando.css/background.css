@@ -1,0 +1,28 @@
+* {margin: 0;}
+/*
+header {
+    height: 100px;
+    border: 7px dashed rgb(15, 15, 131);
+    padding: 16px;
+
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://img.freepik.com/vetores-gratis/imagens-animadas-abstratas-neon-lines_23-2148344065.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: 98%;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+*/
+main {
+    color: black;
+
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://img.freepik.com/vetores-gratis/imagens-animadas-abstratas-neon-lines_23-2148344065.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: 98%;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+    background: linear-gradient(45deg, white, blue, pink);
+}
